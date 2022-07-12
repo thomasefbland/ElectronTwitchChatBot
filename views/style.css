@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url(Ubuntu-Medium.ttf);
+}
+
+body {
+    background-color:#292738;
+    height: 100%;
+    user-select: none;
+}
+div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 150px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Ubuntu-Medium;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+
+    margin: 0;
+    margin-top: 15px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-family: Ubuntu-Regular;
+    font-size: 24px;
+}
